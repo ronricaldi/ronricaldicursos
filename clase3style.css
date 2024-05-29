@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-image: url(Foto_Conceptual.jpg);
+    background-color: #0007;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: #000;
+    margin: 0;
+    text-align: center;
+    padding: 0.1em;
+}
+.video-contenedor {
+    position: relative;
+    padding-bottom: 70%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
+.video-contenedor iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.pdfview {
+    text-align: center;
+    font-size: 300px;
+}
+
+object {
+    width: 300px;
+    padding: 20px 0;
+    padding-top: 0;
+}
+.pdfview {
+    margin: 0;
+    width: 100%;
+    height: 380px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+div {
+    margin: 0;
+    padding-top: 0;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+summary {
+    text-align: center;
+}
+p {
+    padding: 1em;
+    text-align: justify;
+}
+
+a {
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+        padding-right: 20px;
+}
+
+.audio-contenidor {
+    margin: 0;
+    padding: 0 0;
+}

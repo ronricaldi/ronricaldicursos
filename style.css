@@ -1,0 +1,93 @@
+body {
+    
+    margin: 0;
+    background-image: url(imagen_inicio.jpeg);
+    background-color: #0007;
+    background-blend-mode: soft-light;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+nav, header {
+
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    text-align: center;
+    padding: 30px 0;
+    text-decoration: none;
+}
+
+div {
+    padding: 1em;
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    background-color: #000;
+    margin: 0;
+    text-align: center;
+    padding: 0.1em;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding-right: 20px;
+}
+button {
+    box-sizing: border-box;
+    border: #fff;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.redes_sociales {
+    border: none;
+}
+
+.nav_item {
+    display: inline;
+    
+}
+
+.pestañas {
+    display: inline-block;
+    padding: 10px;
+
+}
+iframe {
+    text-align: center;
+}
+summary {
+    text-align: center;
+    padding: 1em;
+}
+h3 {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 3em;
+    margin: 0;
+    text-align: center;
+}
+.video-contenedor {
+    position: relative;
+    padding-bottom: 70%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
+.video-contenedor iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
